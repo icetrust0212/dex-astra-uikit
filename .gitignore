@@ -1,0 +1,9 @@
+/node_modules
+/.storybook
+/src
+/babel.config.js
+/CHANGELOG.md
+/jest.config.js
+/rollup.config.js
+/svgTransform.js
+/tsconfig.json

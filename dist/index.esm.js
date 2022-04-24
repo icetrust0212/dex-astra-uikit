@@ -4740,7 +4740,7 @@ var Logo = function (_a) {
         React__default.createElement(LogoIcon, { src: logoImg, className: "mobile-icon" }),
         React__default.createElement(LogoWithTextIcon, { className: "desktop-icon", style: { color: isDark ? 'white' : 'black' } },
             React__default.createElement(LogoIcon, { src: logoImg }),
-            React__default.createElement("span", null, "AGS"))));
+            React__default.createElement("span", null, "AGS Finance"))));
     return (React__default.createElement(Flex, null, isAbsoluteUrl ? (React__default.createElement(StyledLink, { as: "a", href: href, "aria-label": "AGS home page" }, innerLogo)) : (React__default.createElement(StyledLink, { to: href, "aria-label": "AGS home page" }, innerLogo))));
 };
 var Logo$1 = React__default.memo(Logo, function (prev, next) { return prev.isDark === next.isDark; });

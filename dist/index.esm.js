@@ -4627,11 +4627,10 @@ var BottomNav = function (_a) {
             var _b, _c;
             var label = _a.label, menuItems = _a.items, href = _a.href, icon = _a.icon, _d = _a.showOnMobile, showOnMobile = _d === void 0 ? true : _d, _e = _a.showItemsOnMobile, showItemsOnMobile = _e === void 0 ? true : _e;
             var statusColor = (_c = (_b = menuItems === null || menuItems === void 0 ? void 0 : menuItems.find(function (menuItem) { return menuItem.status !== undefined; })) === null || _b === void 0 ? void 0 : _b.status) === null || _c === void 0 ? void 0 : _c.color;
-            return (showOnMobile &&
-                (!menuItems || (menuItems === null || menuItems === void 0 ? void 0 : menuItems.length) === 0 ? (React__default.createElement(BottomNavItem, { href: href, isActive: href === activeItem, label: label, iconName: icon, showItemsOnMobile: showItemsOnMobile })) : (React__default.createElement(DropdownMenu, { key: label, items: menuItems, isBottomNav: true, activeItem: activeSubItem, showItemsOnMobile: showItemsOnMobile, setMenuOpenByIndex: setMenuOpenByIndex, index: index },
-                    React__default.createElement(Box, null,
-                        React__default.createElement(NotificationDot, { show: !!statusColor, color: statusColor },
-                            React__default.createElement(BottomNavItem, { href: href, isActive: href === activeItem, label: label, iconName: icon, showItemsOnMobile: showItemsOnMobile })))))));
+            return (showOnMobile && (React__default.createElement(DropdownMenu, { key: label, items: menuItems, isBottomNav: true, activeItem: activeSubItem, showItemsOnMobile: showItemsOnMobile, setMenuOpenByIndex: setMenuOpenByIndex, index: index },
+                React__default.createElement(Box, null,
+                    React__default.createElement(NotificationDot, { show: !!statusColor, color: statusColor },
+                        React__default.createElement(BottomNavItem, { href: href, isActive: href === activeItem, label: label, iconName: icon, showItemsOnMobile: showItemsOnMobile }))))));
         }))));
 };
 
@@ -4798,22 +4797,23 @@ var links = [
     },
     {
         label: "Win",
-        href: "/",
+        href: "/win",
         icon: "Trophy",
+        showItemsOnMobile: false,
         items: [
-            {
-                label: "Win",
-                href: "/",
-            },
-            {
-                label: "Predictions",
-                href: "/",
-                status: status.LIVE,
-            },
-            {
-                label: "Lottery",
-                href: "/",
-            },
+        // {
+        //   label: "Win",
+        //   href: "/",
+        // },
+        // {
+        //   label: "Predictions",
+        //   href: "/",
+        //   status: status.LIVE,
+        // },
+        // {
+        //   label: "Lottery",
+        //   href: "/",
+        // },
         ],
     },
     {

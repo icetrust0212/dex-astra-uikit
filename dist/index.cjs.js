@@ -2064,7 +2064,7 @@ var logoImg = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmH
 var CAKE = {
     symbol: 'AGS',
     name: 'AGS',
-    address: '0x555d672A69338753B9f2091a7085c5d1A60459f3'
+    address: '0xe38E3c2aDab386C7AB8023b6de3615FA257cAa63'
 };
 
 var PriceLink = styled__default['default'].a(templateObject_1$R || (templateObject_1$R = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));

@@ -4725,6 +4725,12 @@ var StyledToolsContainer = styled__default['default'](Flex)(templateObject_5 || 
 var StyledSocialLinks = styled__default['default'](SocialLinks$1)(templateObject_6 || (templateObject_6 = __makeTemplateObject(["\n"], ["\n"])));
 var templateObject_1$9, templateObject_2$6, templateObject_3$3, templateObject_4$2, templateObject_5, templateObject_6;
 
+var CAKE = {
+    symbol: 'AGS',
+    name: 'AGS',
+    address: '0x233729E6A3A5DA3Cf6ee5c2B85C56ab3997FD001'
+};
+
 var MenuItem = function (_a) {
     _a.items; var isDark = _a.isDark, toggleTheme = _a.toggleTheme; _a.currentLang; _a.langs; _a.setLang; var cakePriceUsd = _a.cakePriceUsd, buyCakeLabel = _a.buyCakeLabel, props = __rest(_a, ["items", "isDark", "toggleTheme", "currentLang", "langs", "setLang", "cakePriceUsd", "buyCakeLabel"]);
     return (React__default['default'].createElement(StyledFooter, __assign({ p: ["40px 16px", null, "56px 40px 32px 40px"] }, props, { justifyContent: "center" }),
@@ -4736,7 +4742,7 @@ var MenuItem = function (_a) {
                 React__default['default'].createElement(Flex, { order: [1, null, 2], mb: ["24px", null, "0"], justifyContent: "space-between", alignItems: "center" },
                     React__default['default'].createElement(Box, { mr: "20px" },
                         React__default['default'].createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd, color: darkColors.textSubtle })),
-                    React__default['default'].createElement(Button, { as: "a", href: "https://dexscreener.com/astar/0x4f74eaa10b58a95eef3271d1df9f75e6b9a52dde", target: "_blank", scale: "sm", endIcon: React__default['default'].createElement(Icon$24, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
+                    React__default['default'].createElement(Button, { as: "a", href: "https://ags.finance/swap?outputCurrency=" + CAKE.address, target: "_blank", scale: "sm", endIcon: React__default['default'].createElement(Icon$24, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
 };
 
 var MenuItems = function (_a) {

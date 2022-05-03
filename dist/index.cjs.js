@@ -2065,7 +2065,7 @@ var PriceLink = styled__default['default'].a(templateObject_1$R || (templateObje
 var CakeIcon = styled__default['default'].img(templateObject_2$u || (templateObject_2$u = __makeTemplateObject(["\n  width: 24px;\n  margin-right: 8px;\n"], ["\n  width: 24px;\n  margin-right: 8px;\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd, _b = _a.color, color = _b === void 0 ? "textSubtle" : _b;
-    return cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://dexscreener.com/astar/0x4f74eaa10b58a95eef3271d1df9f75e6b9a52dde", target: "_blank" },
+    return cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://dexscreener.com/astar/0x10d0e3ef75a94027b9bd08497acf028566e87a1a", target: "_blank" },
         React__default['default'].createElement(CakeIcon, { src: logoImg }),
         React__default['default'].createElement(Text, { color: color, bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
 };
